@@ -1,0 +1,21 @@
+Démarrage du projet
+===================
+
+PHP 7.4 ou 8.x requis sur votre poste de travail (comme en cours)
+
+Démarrez le serveur PHP avec la commande php -S 127.0.0.1:8000 DANS LE REPERTOIRE RACINE DU PROJET !
+Une fois le serveur PHP démarré, accédez à votre projet à l'URL http://127.0.0.1:8000
+
+Si vous détectez une erreur dans le code source, IL VOUS APPARTIENT DE LE CORRIGER !
+
+Livraison sur un projet personnel github ou gitlab, sur la base de ce projet.
+
+UN PROJET PAR ETUDIANT !
+
+LE TRAVAIL EST PERSONNEL !
+
+Vous avez le droit de consulter les documentations de PHP.
+
+Temps imparti : 2 heures.
+
+Bon courage !

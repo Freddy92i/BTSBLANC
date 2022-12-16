@@ -1,0 +1,88 @@
+{
+    "nodes": [
+        "Midgard",
+        "Asgard",
+        "Vanaheim",
+        "Jotunheim",
+        "Niflheim",
+        "Muspelheim",
+        "Alfheim",
+        "Nidavellir",
+        "Hel",
+        
+        "Odin's Pass",
+        "Ravenclaws",
+        "Shadow Steps",
+        "Iron Castle"
+    ],
+    "links" : {
+        "Midgard" : {
+            "Niflheim" : 3210,
+            "Ravenclaws" : 456,
+            "Nidavellir" : 1098,
+            "Muspelheim" : 2086
+        },
+
+        "Asgard" : {
+            "Vanaheim" : 789,
+            "Odin's Pass" : 77
+        },
+
+        "Vanaheim" : {
+            "Asgard" : 789,
+            "Alfheim" : 987
+        },
+
+        "Jotunheim" : {
+            "Odin's Pass" : 109,
+            "Iron Castle" : 123
+        },
+
+        "Niflheim" : {
+            "Midgard" : 3210,
+            "Hel" : 666
+        },
+
+        "Muspelheim" : {
+            "Midgard" : 2086,
+            "Hel" : 666
+        },
+
+        "Alfheim" : {
+            "Vanaheim" : 987,
+            "Ravenclaws" : 87
+        },
+
+        "Nidavellir" : {
+            "Iron Castle" : 234,
+            "Midgard" : 1098,
+            "Shadow Steps" : 2109
+        },
+
+        "Hel" : {
+            "Niflheim" : 666,
+            "Shadow Steps" : 666,
+            "Muspelheim" : 666
+        },
+
+        "Odin's Pass" : {
+            "Asgard" : 77,
+            "Jotunheim" : 109
+        },
+
+        "Ravenclaws" : {
+            "Alfheim" : 87,
+            "Midgard" : 456
+        },
+
+        "Shadow Steps" : {
+            "Hel" : 666,
+            "Nidavellir" : 2109
+        },
+
+        "Iron Castle" : {
+            "Jotunheim" : 123,
+            "Nidavellir" : 234
+        }
+    }
+}
